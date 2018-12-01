@@ -25,19 +25,17 @@ def main():
 #    print()
 
     new_rset_n = []
-    for name in rest_n:
+    for nname in rest_n:
         #print(name.get_text())
-        new_rset_n.append(name.get_text())
+        new_rset_n.append(nname.get_text())
     
     new_rset_v = []
     for vname in rest_v:
         #print(vname.get_text())
-        new_rset_v.append(name.get_text())
-
-    #print(zip(new_rset_n, new_rset_v))
+        new_rset_v.append(vname.get_text())
 
     for n, v in zip(new_rset_n, new_rset_v):
-        print('{} {}'.format(n, v))
+        print('{}:  {}'.format(n, v))
 
 if __name__ == '__main__':
     main()

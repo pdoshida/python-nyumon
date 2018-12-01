@@ -16,4 +16,4 @@ https://github.com/pynyumon/pynyumon/blob/master/2_scraping.md
 3. 仮想環境について(venv)
 4. スクレイピング
 5. pynyumon8-mentors.pyの作成実行（conpassイベントからメンター一覧を取り出す）
-
+6. 個別に自分が考えたスクリプトを作成

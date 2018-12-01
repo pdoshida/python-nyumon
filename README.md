@@ -6,6 +6,9 @@ https://python-nyumon.connpass.com/event/100817/
 pythontutor.com
 https://github.com/pynyumon/pynyumon/blob/master/1_python_basics.md
 http://pythontutor.com/visualize.html#mode=display
+https://docs.python.jp/3/library/venv.html
+https://github.com/pynyumon/pynyumon/blob/master/2_scraping.md
+
 ```
 
 1. test.pyの作成/実行

@@ -54,3 +54,12 @@ fruits[name] * count
 def calc_fruit_amount(name, count):
   return fruits[name] * count
 calc_fruit_amount('orange', 2)
+def decide_amount(name, count, threshold=1000):
+    amount = calc_fruit_amount(name, count)
+    if amount > threshold:
+        print('高い')
+    elif amount == threshold:
+        print('普通')
+    else:  # < threshold
+        print('安い')
+

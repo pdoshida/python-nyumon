@@ -5,8 +5,6 @@ def main():
 
     # 江古田おすすめランチ
     url = 'https://retty.me/area/PRE13/ARE26/SUB2602/STAN5343/PUR1/'
-
-    # requests で参加者一覧の情報と取得する
     response = requests.get(url)
 
     # response から HTML 部分(content) を取得
@@ -39,4 +37,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 

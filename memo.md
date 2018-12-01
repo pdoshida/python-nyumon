@@ -77,4 +77,11 @@ def calc_fruit_amount(name, count):
     except:
         print('{}は存在しません'.format(name))
 
+docker pull python:3.6
+docker run -it --name pytest python:3.6 /bin/bash
+docker exec -it pytest bash
+
+pip install beautifulsoup4
+
+
 ```

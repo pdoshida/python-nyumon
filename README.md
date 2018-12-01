@@ -15,4 +15,5 @@ https://github.com/pynyumon/pynyumon/blob/master/2_scraping.md
 2. インタプリタで関数/標準ライブラリの使い方を覚える
 3. 仮想環境について(venv)
 4. スクレイピング
-5. pynyumon8-mentors.pyの作成実行
+5. pynyumon8-mentors.pyの作成実行（
+

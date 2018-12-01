@@ -53,3 +53,4 @@ count = 3
 fruits[name] * count
 def calc_fruit_amount(name, count):
   return fruits[name] * count
+calc_fruit_amount('orange', 2)
